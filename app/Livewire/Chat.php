@@ -26,7 +26,6 @@ class Chat extends Component
         $this->messages[] = ['role' => 'assistant', 'content' => ''];
 
         $this->body = '';
-        $this->messages[] = ['role' => 'system', 'content' => ''];
     }
 
     public function render()
